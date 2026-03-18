@@ -247,3 +247,9 @@ Where:
 ```
 
 Keep format identical between training and inference.
+
+## Hands-On: NanoChat
+
+To see supervised fine-tuning in practice:
+
+**SFT pipeline**: Check `scripts/chat_sft.py` for the full supervised fine-tuning implementation. Shows how to take a pretrained base model and fine-tune it on instruction-following data. Notice how simple the process is compared to RLHF (just standard language modeling loss on instruction-response pairs).

@@ -228,3 +228,11 @@ During autoregressive generation, cache the key and value projections of previou
 - Reduces complexity while maintaining long-range connections
 
 **Most practical for extending existing models:** Position interpolation or fine-tuning with longer sequences.
+
+## Hands-On: NanoChat
+
+To see these concepts implemented in clean, readable code:
+
+**Transformer implementation**: Check `nanochat/gpt.py` for a real GPT-style transformer (attention, layer norm, MLP, residual connections). This is the reference implementation for understanding how attention works in practice.
+
+**KV cache**: See `nanochat/engine.py` for how KV caching speeds up autoregressive generation. The code shows exactly how keys and values are cached and reused across generation steps.

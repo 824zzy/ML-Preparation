@@ -2,6 +2,10 @@
 
 This section covers LLM/GenAI knowledge that now shows up in 60%+ of ML interviews. Focus on understanding the trade-offs and when to use each approach.
 
+## Hands-On Companion: NanoChat
+
+For practical understanding, see [NanoChat](https://github.com/karpathy/nanochat), Karpathy's minimal LLM training framework. It covers the full pipeline: tokenization, pretraining, SFT, RLHF, evaluation, and inference with KV cache. Use it as a hands-on reference while studying this section. See **NanoChat_Walkthrough.md** for a detailed guide.
+
 ## When to Use (Decision Table)
 
 | Interview Signal | Topic to Know |

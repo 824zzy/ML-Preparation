@@ -226,3 +226,13 @@ Extremely. "Garbage in, garbage out" applies at massive scale.
 - Monitoring loss spikes and restarting from checkpoints
 
 **Training time:** GPT-3 took ~3-4 months on ~10k V100 GPUs. Modern models similar or longer.
+
+## Hands-On: NanoChat
+
+To see LLM training in practice:
+
+**Pretraining**: Check `scripts/base_train.py` for the pretraining pipeline. Shows data loading, mixed precision training, gradient accumulation, and checkpointing.
+
+**RLHF**: See `scripts/chat_rl.py` for the full RLHF training loop with reward model and PPO optimization. This implements the same SFT → RL pipeline used to train ChatGPT.
+
+**Scaling laws**: The `runs/scaling_laws.sh` script shows experiments with different model sizes and training data amounts, making scaling laws concrete.

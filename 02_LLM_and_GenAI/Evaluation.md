@@ -347,3 +347,16 @@ Output format: {"accuracy": 4, "helpfulness": 5, "clarity": 4, "explanation": ".
 6. **Test on your data:** Public benchmarks might not reflect your task
 7. **Evaluate failure modes:** Understand when and why model fails
 8. **Balance safety and capability:** Too strict = model is useless
+
+## Hands-On: NanoChat
+
+To see evaluation benchmarks implemented:
+
+**Benchmark implementations**: The `tasks/` directory contains clean implementations of standard benchmarks:
+- `tasks/mmlu.py`: MMLU (57 subject multiple choice questions)
+- `tasks/gsm8k.py`: GSM8K (grade school math reasoning)
+- `tasks/arc.py`: ARC (science reasoning)
+
+**Evaluation framework**: Check `nanochat/core_eval.py` for DCLM CORE evaluation, which measures model quality during pretraining. Shows how to structure evaluation code that scales.
+
+Study these to understand how benchmarks work under the hood (prompt formatting, parsing outputs, scoring).

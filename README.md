@@ -65,6 +65,7 @@ This repo is built on top of these excellent resources:
 - [chiphuyen/ml-interviews-book](https://github.com/chiphuyen/ml-interviews-book) (great for system design)
 - [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) (real-world ML systems)
 - [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT) (learn transformers by implementing them)
+- [karpathy/nanochat](https://github.com/karpathy/nanochat) (hands-on companion for understanding the full LLM pipeline: tokenization, pretraining, SFT, RLHF, evaluation, and inference)
 - [Machine Learning Interview Questions](https://github.com/andrewekhalel/MLQuestions)
 - [AmbitionBox](https://www.ambitionbox.com/interviews/jp-morgan-chase-interview-questions/machine-learning-engineer)
 - [Top 45 Machine Learning Interview Questions](https://www.simplilearn.com/tutorials/machine-learning-tutorial/machine-learning-interview-questions)

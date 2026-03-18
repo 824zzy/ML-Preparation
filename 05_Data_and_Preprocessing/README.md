@@ -39,6 +39,8 @@ Text-specific preprocessing:
 - N-grams
 - When to skip preprocessing (modern transformers)
 
+**Hands-On**: For BPE tokenization (used in modern LLMs), see `nanochat/tokenizer.py` in [NanoChat](https://github.com/karpathy/nanochat). Clean implementation showing how text is split into subword tokens.
+
 ### Data_Quality.md (Planned)
 Handling real-world messy data:
 - Missing value strategies (mean/median/mode, KNN imputation, forward fill)
